@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_ci_1737839758218-push-trigger-input-set
+  identifier: Build_harness_ci_1737839758218pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: PamcloudOps
+  pipeline:
+    identifier: Build_harness_ci_1737839758218
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
